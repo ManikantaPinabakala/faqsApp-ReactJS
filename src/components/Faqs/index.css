@@ -1,0 +1,40 @@
+.bg-container {
+  background-color: #f1f5f8;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.inner-bg-container {
+  width: 90%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.heading {
+  color: #cb8805;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.faq-list {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+  .inner-bg-container {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .heading {
+    font-size: 32px;
+  }
+}
